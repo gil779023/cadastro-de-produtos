@@ -1,0 +1,39 @@
+body{background-color: azure;}
+
+#formulario{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+h1{color: aliceblue;}
+
+#nome{
+    border-radius: 6px;
+}
+
+#descricao{
+    border-radius: 6px;
+}
+
+#preco{
+    border-radius: 6px;
+}
+
+#categoria{
+    border-radius: 6px;
+}
+
+#botao{
+    border-radius: 7px;
+    margin: 30px;
+    margin-left: -100px;
+}
+
+#ct{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}

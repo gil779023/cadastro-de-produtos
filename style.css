@@ -1,0 +1,23 @@
+body{background-color: azure;}
+
+#formulario{
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+h1{color: aliceblue;}
+
+#nome{
+    border-radius: 6px;
+}
+
+#icone{
+    border-radius: 6px;
+}
+
+#botao{
+    border-radius: 7px;
+}

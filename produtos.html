@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="produtos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="data" name="formulario" id="formulario" method="post">
+        <h1>Cadastro de Produtos</h1>
+        <input type="text" name="name" id="nome" placeholder="name"><br><br>
+        <input type="text"  name="descricao" id="descricao" placeholder="descricao"><br><br>
+
+        <label for="imagem">imagem</label>
+        <input type="file" id="imagem" accept="imagem/*" class="image">
+        
+        <input type="number"  name="preco" id="preco" placeholder="preco"><br><br>
+        <label for="categoria" id="ct">Categoria:</label>
+        <select id="categoria" required></select><br>
+        
+        <input type="submit" id="botao"  value="enviar">
+        
+    </form>
+    
+
+    
+    <ul id="productList"></ul>
+
+
+    <script src="product.js"></script>
+</body>
+</html>
